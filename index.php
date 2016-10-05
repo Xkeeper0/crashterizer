@@ -10,6 +10,8 @@
 		<br>jpg or png only, original image will be discarded after crashterizing.
 		<br>
 		<br><a href='r/'>view crashterized images</a>
+		<br>
+		<br>source on <a href='https://github.com/Xkeeper0/crashterizer'>github</a>
 	</form>
 <?php
 
@@ -73,7 +75,7 @@
 			imagepng($fi, $fn);
 
 			// Display! Wow, maybe print it out and hang it in a museum while you're at it.
-			print "<img src='$fn' title='wow! art!'>";
+			print "<img src='$fn' title='wow! modern art.'>";
 
 
 		} elseif ($im === false) {
